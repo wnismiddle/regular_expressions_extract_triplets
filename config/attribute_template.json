@@ -1,0 +1,11 @@
+[
+    {
+        "e_type": "公司",
+        "e_pattern_type": "company",
+        "attribute_type": "简称",
+        "attribute_pattern_type": "abbreviation",
+        "pattern": [
+            "(?P<company>[^,./<>? ]*?公司)简称(?P<abbreviation>[^,./<>? ]*?)[,.，。]"
+        ]
+    }
+]

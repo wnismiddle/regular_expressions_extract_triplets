@@ -1,0 +1,24 @@
+[
+    {
+        "e1_type": "公司",
+        "e1_pattern_type": "company1",
+        "e2_type": "公司",
+        "e2_pattern_type": "company2",
+        "relation_type": "关系",
+        "relation_pattern_type": "relation",
+        "pattern": [
+            "(?P<company1>[^,./<>? ]*?)和(?P<company2>[^,./<>? ]*?)达成了(?P<relation>合作)"
+        ]
+    },
+    {
+        "e1_type": "公司",
+        "e1_pattern_type": "company1",
+        "e2_type": "公司",
+        "e2_pattern_type": "company2",
+        "relation_type": "简称",
+        "relation_pattern_type": "abbreviation",
+        "pattern": [
+            "(?P<company1>[^,./<>? ]*?公司)(?P<abbreviation>简称)(?P<company2>[^,./<>? ]*?)[,.，。]"
+        ]
+    }
+]
